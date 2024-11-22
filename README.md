@@ -1,5 +1,8 @@
 # Image Colorization with GANs
 
+This is my final project for the course ELCE455 - Machine Learning with Python.
+
+## Model weights
 The weights of the models can be found in this [Google Drive](https://drive.google.com/drive/folders/1YVphPHLabR7TWE0o9wqoc0BmM7OPSfSN?usp=share_link). You can download them and run inference of any of the trained models or continue training with your custom configurations. In Google Drive, the directory `default/` contains model weights of both discriminator and generator **without** the pre-trained ResNet-18 backbone, whereas the directory `resnet/` stores weights of both models with the ResNet-18 backbone.
 
 In the `training_results/` directory, you can find the training configurations, training logs, and generated image after each epoch for all trained models. 
@@ -42,3 +45,9 @@ and then run
 ```
 python3 inference.py --images_path "your directory with grayscale images" --output_format "your desired output format" --resnet_backbone "True or False"
 ```
+## Streamlit app
+In case you would like to run your local server and colorize images in a web application, run in the terminal
+```
+streamlit run app.py
+```
+Note that in order for the web app to work, the model checkpoints should be stored in the same structure explained above!
