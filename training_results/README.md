@@ -26,7 +26,7 @@ Here, you can find the directories that contain both training configurations and
     ├── ...
 ```
 
-Each directory has a folder `generated images`, which contains predictions of a generator model on some validation images at each epoch. In total, there are 50 epochs. `training_logs.csv` is a CSV file with 50 rows (one for each epoch) that stores all loss values of both discriminator and generator. For a better understanding of loss values, the graphs have been plotted and saved as `training_losses.png` files. These loss graphs are displayed below.
+Each directory has a folder `generated images/`, which contains predictions of a generator model on some validation images at each epoch. In total, there are 50 epochs. `training_logs.csv` is a CSV file with 50 rows (one for each epoch) that stores all loss values of both discriminator and generator. For a better understanding of loss values, the graphs have been plotted and saved as `training_losses.png` files. These loss graphs are displayed below.
 
 ## Generate AB
 ![results_generate_AB_50_epochs](./results_generate_AB_50_epochs/training_losses.png)
