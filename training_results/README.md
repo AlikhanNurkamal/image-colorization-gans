@@ -30,8 +30,12 @@ Each directory has a folder `generated images`, which contains predictions of a 
 
 ## Generate AB
 ![results_generate_AB_50_epochs](./results_generate_AB_50_epochs/training_losses.png)
+
 ## Generate AB with ResNet backbone
+![results_generate_AB_50_epochs_resnet](./results_generate_AB_50_epochs_resnet/training_losses.png)
 
 ## Generate RGB
+![results_generate_RGB_50epochs](./results_generate_RGB_50epochs/training_losses.png)
 
 ## Generate RGB with ResNet backbone
+![results_generate_RGB_50_epochs_resnet](./results_generate_50_epochs_resnet/training_losses.png)
