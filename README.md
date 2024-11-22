@@ -25,10 +25,18 @@ In order to run inference of the trained models, please place all grayscale imag
 ├── checkpoints
 │   ├── default
 │   │   ├── ab
+│   │   │   ├── disc_checkpoints_best.pth.tar
+│   │   │   └── gen_checkpoints_best.pth.tar
 │   │   └── rgb
+│   │       ├── disc_checkpoints_best.pth.tar
+│   │       └── gen_checkpoints_best.pth.tar
 │   └── resnet
 │       ├── ab
+│       │   ├── disc_checkpoints_best.pth.tar
+│       │   ├── gen_checkpoints_best.pth.tar
 │       └── rgb
+│           ├── disc_checkpoints_best.pth.tar
+│           ├── gen_checkpoints_best.pth.tar
 ```
 and then run
 ```
