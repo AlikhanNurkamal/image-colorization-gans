@@ -2,6 +2,9 @@
 
 This is my final project for the course ELCE455 - Machine Learning with Python.
 
+In the `training_notebooks/` directory you can find 4 Jupyter notebooks that were used to train 4 GAN models. I ran these notebooks in Kaggle since it provides free GPU.
+In the `training_results/` directory you can find the training configurations, training logs, and generated image after each epoch for all trained models.
+
 ## Model weights
 The weights of the models can be found in this [Google Drive](https://drive.google.com/drive/folders/1YVphPHLabR7TWE0o9wqoc0BmM7OPSfSN?usp=share_link). You can download them and run inference of any of the trained models or continue training with your custom configurations. In Google Drive, the directory `default/` contains model weights of both discriminator and generator **without** the pre-trained ResNet-18 backbone, whereas the directory `resnet/` stores weights of both models with the ResNet-18 backbone.
 
