@@ -50,7 +50,7 @@ class Discriminator(nn.Module):
             y (torch.Tensor): Batch of colorized images
 
         Returns:
-            _type_: _description_
+            torch.Tensor: Discriminator output
         """
         x = torch.cat([x, y], dim=1)
         x = self.initial(x)
